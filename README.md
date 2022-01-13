@@ -1,7 +1,5 @@
 # Full-Stack Todo App
 
-A full-stack todo app build conducted by [Kaiz](https://github.com/kaiz16).
-
 The purpose of this project is to learn how to build a Express.js server to
 handle request from the frontend.
 
