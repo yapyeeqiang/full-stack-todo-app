@@ -33,24 +33,29 @@ cd server
 npm install
 ```
 
-4. Run the frontend.
+4. Create a `.env` to store your API endpoint.
 
 ```sh
-cd client
+touch .env
+echo "VITE_SERVER_URL=http://localhost:4000" > .env
+```
+
+5. Run the frontend.
+
+```sh
 npm run dev
 ```
 
-5. Run the server.
+6. Run the server.
 
 ```sh
-cd server
 nodemon index.js
 
 # or
 node index.js
 ```
 
-6. If you don't have `nodemon`, you can try this:
+7. If you don't have `nodemon`, you can try this:
 
 ```sh
 npm install -g nodemon
